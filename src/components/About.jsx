@@ -9,7 +9,7 @@ export default function About() {
 
         <div className="glass p-8 rounded-3xl">
           <p className="text-lg text-gray-300 leading-8">
-            Hi, I'm Bharath Sai, a Computer Science Engineering
+            Hi, I'm Bharat Sai Pulipati, founder of Earnova and a Computer Science Engineering
             student specializing in Big Data Analytics at SRM Institute
             of Science and Technology.
 

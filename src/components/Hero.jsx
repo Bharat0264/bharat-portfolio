@@ -11,7 +11,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
         >
           <h1 className="text-6xl md:text-7xl font-bold">
-            Bharath Sai
+            Bharat Sai Pulipati
           </h1>
 
           <h2 className="gradient-text text-2xl mt-4">
@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="w-96 h-96 rounded-full overflow-hidden border-4 border-blue-500 shadow-2xl">
             <img
               src="/profile.jpg"
-              alt="Bharath Sai"
+              alt="Bharat Sai Pulipati"
               className="w-full h-full object-cover"
               style={{
                 objectPosition: "center top",

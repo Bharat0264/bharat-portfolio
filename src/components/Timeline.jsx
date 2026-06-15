@@ -1,24 +1,19 @@
 export default function Timeline() {
   const timeline = [
     {
-      year: "2023",
-      title: "Started B.Tech CSE",
-      desc: "Began my Computer Science Engineering journey."
+      year: "Class 10",
+      title: "Narayana School",
+      desc: "Scored 600/600 with 100%."
     },
     {
-      year: "2024",
-      title: "Web Development",
-      desc: "Built multiple frontend and full-stack projects."
+      year: "Class 12",
+      title: "Resonance Junior College",
+      desc: "Scored 902/1000 with 90.2%."
     },
     {
-      year: "2025",
-      title: "AI & Data Science",
-      desc: "Started working on Machine Learning, NLP, and Data Science projects."
-    },
-    {
-      year: "2026",
-      title: "Advanced Projects",
-      desc: "Working on AI, Data Science, and Full Stack Development projects."
+      year: "Currently Studying",
+      title: "SRM University, Kattankulathur",
+      desc: "Computer Science Engineering with specialization in Big Data Analytics. Current CGPA: 8.62."
     }
   ];
 

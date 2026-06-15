@@ -3,15 +3,23 @@ export default function Projects() {
   const projects = [
     {
       title: "Water Quality Monitoring and Prediction",
-      desc: "IoT and Machine Learning based water quality monitoring system using ESP32 sensors and Decision Tree classifier."
+      desc: "IoT and Machine Learning based water quality monitoring system using ESP32 sensors and Decision Tree classifier.",
+      link: "https://github.com/Bharat0264/smart-water-quality-monitoring"
+    },
+    {
+      title: "Business Intelligence with AI",
+      desc: "AI-powered business intelligence project focused on turning data into useful insights and analytics.",
+      link: "https://ai-bi-platform-bsyu.onrender.com/"
+    },
+    {
+      title: "Earnova",
+      desc: "Founder-led earning and commerce platform with a practical full-stack product experience.",
+      link: "https://www.earnova.in"
     },
     {
       title: "Bankruptcy Prediction System",
-      desc: "Machine Learning model using Logistic Regression, Decision Tree, SVM and Random Forest."
-    },
-    {
-      title: "E-Commerce Website",
-      desc: "Web-based E-Commerce platform developed using HTML, MySQL and DBMS concepts."
+      desc: "Machine Learning model using Logistic Regression, Decision Tree, SVM and Random Forest.",
+      link: "https://github.com/Bharat0264/Bankruptcy-Prediction-using-Machine-learning-Techniques"
     }
   ];
 
@@ -26,20 +34,27 @@ export default function Projects() {
 
         <div className="grid md:grid-cols-3 gap-6">
 
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="glass p-6 rounded-2xl hover:-translate-y-2 transition duration-300"
-            >
-              <h3 className="text-2xl font-bold mb-4 gradient-text">
-                {project.title}
-              </h3>
+          {projects.map((project, index) => {
+            const Card = project.link ? "a" : "div";
 
-              <p className="text-gray-400">
-                {project.desc}
-              </p>
-            </div>
-          ))}
+            return (
+              <Card
+                key={index}
+                href={project.link}
+                target={project.link ? "_blank" : undefined}
+                rel={project.link ? "noreferrer" : undefined}
+                className="glass p-6 rounded-2xl hover:-translate-y-2 transition duration-300 block"
+              >
+                <h3 className="text-2xl font-bold mb-4 gradient-text">
+                  {project.title}
+                </h3>
+
+                <p className="text-gray-400">
+                  {project.desc}
+                </p>
+              </Card>
+            );
+          })}
 
         </div>
 

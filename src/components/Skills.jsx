@@ -5,7 +5,8 @@ export default function Skills() {
     "Data Science",
     "Data Analytics",
     "C Programming",
-    "Python"
+    "Python",
+    "SQL"
   ];
 
   return (
