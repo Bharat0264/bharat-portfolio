@@ -9,12 +9,17 @@ export default function Projects() {
     {
       title: "Business Intelligence with AI",
       desc: "AI-powered business intelligence project focused on turning data into useful insights and analytics.",
-      link: "https://ai-bi-platform-bsyu.onrender.com/"
+      link: "https://ai-bi-platform-gud0.onrender.com/"
     },
     {
       title: "Earnova",
       desc: "Founder-led earning and commerce platform with a practical full-stack product experience.",
       link: "https://www.earnova.in"
+    },
+    {
+      title: "Generative AI Project",
+      desc: "Generative AI application built around prompt engineering, intelligent content generation, and practical LLM-powered workflows.",
+      link: "https://generative-ai-research-assistant.vercel.app"
     },
     {
       title: "Bankruptcy Prediction System",
