@@ -2,7 +2,7 @@ export default function Stats() {
 
   const stats = [
     ["8.62", "CGPA"],
-    ["5", "Projects"],
+    ["6", "Projects"],
     ["2", "Certifications"],
     ["2027", "Graduation"]
   ];

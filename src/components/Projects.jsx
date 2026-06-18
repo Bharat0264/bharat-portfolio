@@ -2,9 +2,9 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Water Quality Monitoring and Prediction",
-      desc: "IoT and Machine Learning based water quality monitoring system using ESP32 sensors and Decision Tree classifier.",
-      link: "https://github.com/Bharat0264/smart-water-quality-monitoring"
+      title: "Earnova",
+      desc: "Founder-led earning and commerce platform with a practical full-stack product experience.",
+      link: "https://www.earnova.in"
     },
     {
       title: "Business Intelligence with AI",
@@ -12,14 +12,19 @@ export default function Projects() {
       link: "https://ai-bi-platform-gud0.onrender.com/"
     },
     {
-      title: "Earnova",
-      desc: "Founder-led earning and commerce platform with a practical full-stack product experience.",
-      link: "https://www.earnova.in"
-    },
-    {
       title: "Generative AI Project",
       desc: "Generative AI application built around prompt engineering, intelligent content generation, and practical LLM-powered workflows.",
       link: "https://generative-ai-research-assistant.vercel.app"
+    },
+    {
+      title: "ATS Resume Maker",
+      desc: "Resume builder focused on ATS-friendly formatting, professional resume creation, and quick export-ready workflows.",
+      link: "https://resume-maker-ats.vercel.app/"
+    },
+    {
+      title: "Water Quality Monitoring and Prediction",
+      desc: "IoT and Machine Learning based water quality monitoring system using ESP32 sensors and Decision Tree classifier.",
+      link: "https://github.com/Bharat0264/smart-water-quality-monitoring"
     },
     {
       title: "Bankruptcy Prediction System",
